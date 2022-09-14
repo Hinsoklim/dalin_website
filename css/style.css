@@ -1,0 +1,159 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.logo img {
+    width: 25%;
+    border-radius: 50px;
+}
+.logo,.container_welcome,.profile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li a{
+    text-transform: uppercase;
+    color: red;
+    text-decoration: none;
+    padding: 10px;
+    border: 1px solid rgb(32, 32, 252);
+    border-radius: 5px;
+}
+.active {
+    background: rgb(227, 227, 249);
+}
+ul li a:hover {
+    background: rgb(229, 229, 250);
+}
+ul li {
+    list-style: none;
+    margin: 0 15px;
+}
+
+nav,ul {
+    display: flex;
+}
+ul {
+    justify-content: center;
+    align-items: center;
+    margin-right: 50px;
+}
+nav {
+    position: sticky;
+    top: 0;
+    justify-content: space-between;
+    background-color: #fff;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+h1 {
+    text-align: center;
+    margin: 4px;
+    padding: 0;
+}
+
+strong {
+    font-weight: 900;
+}
+
+p{
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    font-size: larger;
+}
+
+.container_welcome {
+    background-image: url('../images/ict-png-1.png');
+    height: 76vh;
+    justify-content: flex-start;
+    align-items: flex-end;
+}
+
+.text{
+    background-color: black;
+    z-index: 10;
+    width: 50%;
+    padding: 20px;
+    margin: 20px;
+    border-radius: 50px 0 60px 0;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 5px 15px 0px;
+}
+
+.text span {
+    z-index: 100;
+    overflow: hidden;
+    color: #fff;
+    font-size: large;
+    text-align: center;
+}
+
+.profile img{
+    width: 80%;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+.profile {
+    width: 45%;
+}
+
+.info p {
+    text-align: start;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+}
+.info strong {
+    font-size: 15px;
+}
+
+.pro_info {
+    display: flex;
+    align-items: center;
+}
+
+.info {
+    border: 1px solid blue;
+    width: 30vw;
+    border-radius: 10px;
+    padding: 10px 40px;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px;
+}
+
+.card_us {
+    display: flex;
+    margin: 50px 4px;
+    
+}
+
+.container_us {
+    margin-top: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.map iframe {
+    width: 100%;
+    height: 40vh;
+}
+.all_card{
+    width: 100%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.card_contact {
+    padding: 13px;
+    width: 40%;
+    border-left: 1px solid blue;
+    border-radius: 3px;
+    margin: 7px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+.card_contact span{
+    font-weight: bold;
+}
